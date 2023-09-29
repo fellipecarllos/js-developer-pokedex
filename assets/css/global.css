@@ -1,24 +1,29 @@
-* {
+*{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
-body {
+body{
     background-color: #f6f8fc;
 }
 
-.content {
+.content{
     width: 100vw;
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
 }
 
+.link {
+    text-decoration: none;
+}
+
 @media screen and (min-width: 992px) {
-    .content {
+    .content{
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
-}
+  }
+
